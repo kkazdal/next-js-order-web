@@ -1,6 +1,6 @@
 import React from "react";
 
-const Input = (props: any) => {
+const Input = (props: any): JSX.Element => {
   const { type, errorMessage, touched, placeholder, ...inputProps } = props;
 
   return (
